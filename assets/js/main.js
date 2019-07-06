@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
+import '../scss/main.scss';
 
 const Test = () => {
     const list = [
