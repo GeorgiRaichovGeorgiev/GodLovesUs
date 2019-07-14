@@ -1,12 +1,4 @@
-html,
-body {
-    background-color: yellow;
-    font-size: 30px;
-    font-weight: bold;
-    font-style: italic;
-
-    p {
-        font-style: italic;
-    }
-
-}
+@import 'globals';
+@import 'colors';
+@import 'mixins';
+@import 'calculator';
