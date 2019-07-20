@@ -1,5 +1,8 @@
 import React from 'react';
 
+// Work in progress
+// Only the skeleton is made
+
 export class Calculator extends React.Component {
     render() {
         return (

@@ -1,0 +1,66 @@
+.todos {
+    width: 300px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border: 2px solid #ebebeb;
+    border-radius: 4px;
+}
+
+.to-do {
+    @include clearfix;
+
+    padding: 5px 10px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.to-do-name {
+    margin-top: 5px;
+    font-weight: bold;
+    float: left;
+
+    &.completed {
+        background-color: yellow;
+        text-decoration: line-through;
+    }
+
+}
+
+.to-do-controllers {
+    float: right;
+}
+
+.to-do-complete {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid green;
+    border-radius: 4px;
+    background-color: lightgreen;
+
+    &:hover {
+        background-color: #2fee34;
+        cursor: pointer;
+    }
+
+}
+
+.to-do-delete {
+    padding: 5px 10px;
+    border: 1px solid darkred;
+    border-radius: 4px;
+    color: white;
+    background-color: red;
+
+    &:hover {
+        background-color: #c70606;
+        cursor: pointer;
+    }
+
+}
+
+.to-do-add {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    font-size: 18px;
+}

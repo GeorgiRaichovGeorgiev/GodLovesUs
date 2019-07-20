@@ -6,7 +6,7 @@ from home.models import Question
 
 class PollQuestions(View):
     title = 'Questions'
-    template = 'index.html'
+    template = 'questions.html'
 
     def get(self, request):
         questions = list(Question.objects.values('pk', 'question_text'))

@@ -26,7 +26,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: 'templates/calculator.html',
+            template: 'templates/todos.html',
             favicon: 'assets/img/butterfly.ico',
         })
     ],

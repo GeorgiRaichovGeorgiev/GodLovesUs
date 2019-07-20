@@ -1,16 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import {Questions, questionsData} from './questions';
-import {Calculator} from './calculator';
+// import {Calculator} from './calculator';
+import {ToDos} from './toDos';
 import '../scss/main.scss';
 
-// Questions components
+// Questions
 // ReactDOM.render(
     {/*<Questions questions={questionsData}/>,*/}
     // document.getElementById('questions'),
 // );
 
+// Calculator
+// ReactDOM.render(
+//     <Calculator/>,
+//     document.getElementById('calculator'),
+// );
+
 ReactDOM.render(
-    <Calculator/>,
-    document.getElementById('calculator'),
+    <ToDos/>,
+    document.getElementById('todos'),
 );
