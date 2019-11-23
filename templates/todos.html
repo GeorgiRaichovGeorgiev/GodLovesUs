@@ -3,9 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ToDo</title>
+        <title>Todos</title>
     </head>
     <body>
         <div id="todos"></div>
+        <script>
+            var todos_test = {{ todos_test|safe }};
+            console.log(todos_test);
+        </script>
     </body>
 </html>

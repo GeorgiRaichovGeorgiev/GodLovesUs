@@ -3,6 +3,9 @@ import React, {useState} from 'react';
 // Add real todos data instead of `toDosData`
 // (add a model in the database)
 
+// To search in Google what is the standard way to pass
+// data from back-end(Django) to the front-end(ReactJS)
+
 const toDosData = [
     {
         id: 1,

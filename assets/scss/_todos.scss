@@ -1,4 +1,6 @@
 .todos {
+    --light-gray: red;
+
     width: 300px;
     position: relative;
     top: 20px;
@@ -11,7 +13,8 @@
     @include clearfix;
 
     padding: 5px 10px;
-    border-bottom: 1px solid #ebebeb;
+    border-bottom: 1px solid var(--light-gray);
+    //border-bottom: 1px solid #ebebeb;
 }
 
 .to-do-name {

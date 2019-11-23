@@ -1,5 +1,8 @@
 from django.shortcuts import render
 
+from to_do.models import ToDo
+
 
 def index(request):
-    return render(request, 'todos.html')
+    todos = ToDo.objects.all()
+    return render(request, 'todos.html', {'todos_test': todos})
